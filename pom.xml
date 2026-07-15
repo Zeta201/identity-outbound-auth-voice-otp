@@ -452,7 +452,7 @@
         <carbon.identity.account.lock.handler.version>1.1.12</carbon.identity.account.lock.handler.version>
         <carbon.identity.account.lock.handler.imp.pkg.version.range>[1.1.12, 2.0.0)
         </carbon.identity.account.lock.handler.imp.pkg.version.range>
-<osgi.service.import.version.range>[1.2.0,2.0.0)</osgi.service.import.version.range>
+        <osgi.service.import.version.range>[1.2.0,2.0.0)</osgi.service.import.version.range>
         <import.package.version.commons.logging>[1.2.0,2.0.0)</import.package.version.commons.logging>
         <carbon.identity.package.import.version.range>[5.14.0, 6.0.0)</carbon.identity.package.import.version.range>
         <carbon.identity.framework.imp.pkg.version.range>[5.15.28, 6.0.0)
