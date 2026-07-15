@@ -941,11 +941,10 @@ public class VoiceOTPAuthenticatorTest {
 
     @Test(expectedExceptions = {AuthenticationFailedException.class})
     public void testSendRestCall() throws AuthenticationFailedException, IOException {
-        Map<String, String> authProps = new HashMap<>();
         String header = "Authorization: Basic dGVzdDp0ZXN0";
         String httpMethod = "POST";
         String payload = "{\"key\":\"key\",\"value\":\"value\"}";
-        String voiceURL = "https://testdomain.com/voice";
+        String voiceURL = "http://127.0.0.1:1/voice";
         String httpResponse = "200";
 
         authenticator.sendRESTCall(context, voiceURL, httpMethod, header, payload,
